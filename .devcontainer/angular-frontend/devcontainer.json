@@ -1,0 +1,21 @@
+{
+    "name": "angular-frontend",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "angular-frontend",
+    "workspaceFolder": "/workspace",
+    "runServices": ["angular-frontend"],
+    "shutdownAction": "stopCompose",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Angular.ng-template",
+                "bradlc.vscode-tailwindcss",
+                "ajesh-mishra.stealth",
+                "usernamehw.errorlens"
+            ]
+        }
+    },
+    "forwardPorts": [
+        4201
+    ]
+}

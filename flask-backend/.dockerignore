@@ -1,0 +1,25 @@
+# Ignore development and system files
+*.pyc
+__pycache__
+.env
+*.log
+.vscode
+
+# Ignore package management files
+pip-log.txt
+pip-wheel-metadata/
+pip-egg-info/
+*.egg-info/
+*.egg
+
+# Ignore version control files
+.git
+.gitignore
+
+# Ignore IDE-specific files
+.idea
+*.iml
+
+# Ignore test files and directories
+tests/
+test/

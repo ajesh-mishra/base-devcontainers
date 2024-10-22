@@ -1,0 +1,20 @@
+services:
+  flask-backend:
+    build:
+      context: ../flask-backend
+      dockerfile: ../.devcontainer/flask-backend/Dockerfile
+    volumes:
+      - ../flask-backend:/workspace:cached
+    command: sleep infinity
+    ports:
+      - "5001:5000"
+  
+  angular-frontend:
+    build:
+      context: ../angular-frontend
+      dockerfile: ../.devcontainer/angular-frontend/Dockerfile
+    volumes:
+      - ../angular-frontend:/workspace:cached
+    command: sleep infinity
+    ports:
+      - "4201:4200"

@@ -1,0 +1,25 @@
+{
+    "name": "flask-backend",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "flask-backend",
+    "workspaceFolder": "/workspace",
+    "runServices": ["flask-backend"],
+    "shutdownAction": "stopCompose",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "ms-python.black-formatter",
+                "ms-python.isort",
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.debugpy",
+                "ajesh-mishra.stealth",
+                "usernamehw.errorlens"
+            ]
+        }
+    },
+    "forwardPorts": [
+        5001
+    ]
+}
