@@ -17,4 +17,4 @@ services:
       - ../angular-frontend:/workspace:cached
     command: sleep infinity
     ports:
-      - "4201:4200"
+      - "4200:4200"
