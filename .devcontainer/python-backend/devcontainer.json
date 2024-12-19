@@ -1,9 +1,9 @@
 {
-    "name": "flask-backend",
+    "name": "python-backend",
     "dockerComposeFile": "../docker-compose.yml",
-    "service": "flask-backend",
+    "service": "python-backend",
     "workspaceFolder": "/workspace",
-    "runServices": ["flask-backend"],
+    "runServices": ["python-backend"],
     "shutdownAction": "stopCompose",
     "customizations": {
         "vscode": {

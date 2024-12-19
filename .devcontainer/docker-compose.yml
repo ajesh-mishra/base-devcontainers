@@ -1,10 +1,10 @@
 services:
-  flask-backend:
+  python-backend:
     build:
-      context: ../flask-backend
-      dockerfile: ../.devcontainer/flask-backend/Dockerfile
+      context: ../python-backend
+      dockerfile: ../.devcontainer/python-backend/Dockerfile
     volumes:
-      - ../flask-backend:/workspace:cached
+      - ../python-backend:/workspace:cached
     command: sleep infinity
     ports:
       - "5000:5000"
