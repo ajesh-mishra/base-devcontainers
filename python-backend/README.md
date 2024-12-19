@@ -6,6 +6,12 @@ This is a starter kit for developing Python Flask applications using VS Code Dev
 
 - `Dockerfile` installs all the Python packages listed in `requirements.txt` file that is needed by the application.
 
+## Install the dependencies for the first time
+
+```bash
+pip install -r requirements.txt
+```
+
 ## To start the application run:
 
 ```bash
