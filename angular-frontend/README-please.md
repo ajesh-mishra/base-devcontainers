@@ -3,13 +3,13 @@
 - Install Angular CLI version `19.0.6`
 
 ```bash
-npm i @angular/cli:19.0.6
+npm install @angular/cli@19.0.6 -g
 ```
 
 - Create a new project
 
 ```bash
-ng new my-app
+ng new app --directory ./ --skip-git
 ```
 
 - Update `package.json` 

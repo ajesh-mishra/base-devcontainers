@@ -1,11 +1,11 @@
-FROM node:20.12.2-bullseye
+FROM node:23-bullseye
 
 WORKDIR /workspace
 
-COPY package.json package.json
+# COPY package.json package.json
 
-RUN npm install -g @angular/cli \
-    && npm install
+# RUN npm install -g @angular/cli \
+#     && npm install
 
 COPY . .
 
