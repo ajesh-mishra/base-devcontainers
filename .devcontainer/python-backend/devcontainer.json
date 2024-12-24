@@ -15,7 +15,8 @@
                 "ms-python.vscode-pylance",
                 "ms-python.debugpy",
                 "ajesh-mishra.stealth",
-                "usernamehw.errorlens"
+                "usernamehw.errorlens",
+                "qwtel.sqlite-viewer"
             ]
         }
     },
