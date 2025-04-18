@@ -1,9 +1,9 @@
 {
-    "name": "python-backend",
+    "name": "python",
     "dockerComposeFile": "../docker-compose.yml",
-    "service": "python-backend",
+    "service": "python",
     "workspaceFolder": "/workspace",
-    "runServices": ["python-backend"],
+    "runServices": ["python"],
     "shutdownAction": "stopCompose",
     "customizations": {
         "vscode": {

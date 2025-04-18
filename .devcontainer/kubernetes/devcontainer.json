@@ -1,0 +1,18 @@
+{
+    "name": "kubernetes",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "kubernetes",
+    "workspaceFolder": "/workspace",
+    "runServices": ["kubernetes"],
+    "shutdownAction": "stopCompose",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-kubernetes-tools.vscode-kubernetes-tools",
+                "redhat.vscode-yaml",
+                "ajesh-mishra.stealth",
+                "usernamehw.errorlens",
+            ]
+        }
+    }
+}

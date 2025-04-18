@@ -1,9 +1,9 @@
 {
-    "name": "angular-frontend",
+    "name": "angular",
     "dockerComposeFile": "../docker-compose.yml",
-    "service": "angular-frontend",
+    "service": "angular",
     "workspaceFolder": "/workspace",
-    "runServices": ["angular-frontend"],
+    "runServices": ["angular"],
     "shutdownAction": "stopCompose",
     "customizations": {
         "vscode": {

@@ -1,0 +1,17 @@
+{
+    "name": "terraform",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "terraform",
+    "workspaceFolder": "/workspace",
+    "runServices": ["terraform"],
+    "shutdownAction": "stopCompose",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "hashicorp.terraform",
+                "ajesh-mishra.stealth",
+                "usernamehw.errorlens"
+            ]
+        }
+    }
+}

@@ -1,20 +1,37 @@
 services:
-  python-backend:
+
+  python:
     build:
-      context: ../python-backend
-      dockerfile: ../.devcontainer/python-backend/Dockerfile
+      context: ../python
+      dockerfile: ../.devcontainer/python/Dockerfile
     volumes:
-      - ../python-backend:/workspace:cached
+      - ../python:/workspace:cached
     command: sleep infinity
     ports:
       - "5001:5000"
   
-  angular-frontend:
+  angular:
     build:
-      context: ../angular-frontend
-      dockerfile: ../.devcontainer/angular-frontend/Dockerfile
+      context: ../angular
+      dockerfile: ../.devcontainer/angular/Dockerfile
     volumes:
-      - ../angular-frontend:/workspace:cached
+      - ../angular:/workspace:cached
     command: sleep infinity
     ports:
       - "4200:4200"
+
+  kubernetes:
+    build:
+      context: ../kubernetes
+      dockerfile: ../.devcontainer/kubernetes/Dockerfile
+    volumes:
+      - ../kubernetes:/workspace:cached
+    command: sleep infinity
+
+  terraform:
+    build:
+      context: ../terraform
+      dockerfile: ../.devcontainer/terraform/Dockerfile
+    volumes:
+      - ../terraform:/workspace:cached
+    command: sleep infinity
