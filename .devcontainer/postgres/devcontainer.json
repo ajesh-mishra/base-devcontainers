@@ -1,0 +1,11 @@
+{
+    "name": "postgres",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "postgres",
+    "workspaceFolder": "/workspace",
+    "runServices": ["postgres"],
+    "shutdownAction": "stopCompose",
+    "forwardPorts": [
+        5432
+    ]
+}
